@@ -1,0 +1,29 @@
+{
+    "name": "magenxcommerce/module-swatches-layered-navigation",
+    "description": "N/A",
+    "config": {
+        "sort-packages": true
+    },
+    "require": {
+        "php": "~7.1.3||~7.2.0||~7.3.0",
+        "magenxcommerce/framework": "102.0.*",
+        "magenxcommerce/magento-composer-installer": "*"
+    },
+    "type": "magento2-module",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Magento\\SwatchesLayeredNavigation\\": ""
+        }
+    },
+    "version": "100.3.3",
+    "replace": {
+        "magento/module-swatches-layered-navigation": "*"
+    }
+}
